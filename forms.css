@@ -15,6 +15,14 @@ form textarea {
   width: 100%;
   -moz-box-sizing: content-box;
   box-sizing: border-box;
+}
+
+form input[type=text],
+form input[type=password],
+form input[type=email],
+form input[type="url"],
+form input[type="search"],
+form textarea {
   height: 37px;
 }
 
